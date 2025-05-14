@@ -166,7 +166,7 @@ bindsym $mod+comma exec --no-startup-id ~/.config/i3/move-workspace-direction.sh
 bindsym $mod+period exec --no-startup-id ~/.config/i3/move-workspace-direction.sh right
 
 bindsym $mod+o exec --no-startup-id feh --bg-scale ~/Pictures/kakashi-background.png/
-bindsym $mod+p exec --no-startup-id feh --bg-scale ~/Pictures/skull.jpg/
+bindsym $mod+p exec --no-startup-id feh --bg-scale ~/Pictures/hogwarts.png/
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
