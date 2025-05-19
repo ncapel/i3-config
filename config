@@ -19,7 +19,7 @@ exec --no-startup-id autorandr --change
 exec --no-startup-id xrandr --output DP-1 --above eDP-1
 
 exec --no-startup-id picom
-exec_always --no-startup-id feh --bg-scale ~/Pictures/kakashi-background.png/
+exec_always --no-startup-id feh --bg-scale ~/backgrounds/kakashi-background.png/
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
@@ -165,8 +165,8 @@ bindsym $mod+n exec --no-startup-id ~/.config/i3/move-workspace-direction.sh up
 bindsym $mod+comma exec --no-startup-id ~/.config/i3/move-workspace-direction.sh left
 bindsym $mod+period exec --no-startup-id ~/.config/i3/move-workspace-direction.sh right
 
-bindsym $mod+o exec --no-startup-id feh --bg-scale ~/Pictures/kakashi-background.png/
-bindsym $mod+p exec --no-startup-id feh --bg-scale ~/Pictures/hogwarts.png/
+bindsym $mod+o exec --no-startup-id feh --bg-scale ~/backgrounds/kakashi-background.png/
+bindsym $mod+p exec --no-startup-id feh --bg-scale ~/backgrounds/hogwarts.png/
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
